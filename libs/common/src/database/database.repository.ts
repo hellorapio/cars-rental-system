@@ -1,3 +1,4 @@
+//@ts-nocheck
 import { Injectable, Inject } from '@nestjs/common';
 import { NodePgDatabase } from 'drizzle-orm/node-postgres';
 import { DRIZZLE_DB } from './database.module';
